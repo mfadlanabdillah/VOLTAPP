@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fadlan.voltapp.MainActivity"
+    android:background="@android:color/black">
+
+
+    <ImageView
+        android:id="@+id/voltaimg"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_volta"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Mochamad Fadlan Abdillah"
+        android:layout_below="@id/voltaimg"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/npm"
+        android:text="140910160032"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/name"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+
+        />
+    <TextView
+        android:id="@+id/ee"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/npm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electrical Engineering"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/pu"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/ee"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Padjadjaran University"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year"
+        android:layout_below="@id/pu"
+        android:layout_centerInParent="true"
+        android:text="2016"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
